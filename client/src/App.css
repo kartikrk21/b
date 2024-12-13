@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.bingo-card {
+  display: inline-block;
+  background: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2px;
+  background: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.cell.selected {
+  background: #90EE90;
+} 
